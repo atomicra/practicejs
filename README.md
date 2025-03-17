@@ -5,7 +5,7 @@ A JavaScript template for solving 2D solid mechanics problems using the finite e
 Выполнить реализацию вариационной постановки задачи о сжатии/растяжении стержня на плоскости. См. шаблон ./public/js/truss2d.js и ./assignmentStruct2d.pdf
 
 Литература: См. глава 19, задача на стр. 250, параграф 19.3 ./docs/L.J.Segerlind. Applied Finite Element Analysis (2ed., Jonn Wiley Fnd Sons, 1984)(L)(T)(222s).pdf (дополнительно: E.Onate Structural Analysis with the Finite Element Method) 
-
+<pre>
  0.0         0.0         0.0         0.0         0.0         0.0        
  0.0         0.0         0.0         0.0         0.0         0.0        
  0.0         0.0         0.0         0.0         0.0         0.0        
@@ -258,7 +258,7 @@ node - 6        elem - 6
 				5,9,
 				4,8,
 				9,7
-
+</pre>
 
 # Задание struct2d
 Выполнить реализацию вариационной постановки задачи о сжатии/растяжении стержня на плоскости. См. шаблон ./public/js/struct2d.js  и ./assignmentStruct2d.pdf
@@ -268,7 +268,7 @@ node - 6        elem - 6
  - усилия в элементах. 
 
 Литература: См. глава 21, задача на стр. 280, параграф 21.3  рисунок 21.5 ./docs/L.J.Segerlind. Applied Finite Element Analysis (2ed., Jonn Wiley Fnd Sons, 1984)(L)(T)(222s).pdf (дополнительно: E.Onate Structural Analysis with the Finite Element Method) 
-
+<pre>
 ie=0; L=400.000000;
 matrixTransformation
  0.7         0.7         0.0         0.0         0.0         0.0        
@@ -470,7 +470,7 @@ node - 6        elem - 6
  300, 600,      4,3,
    0, 600,      3,5
    0, 900
-
+</pre>
 # Задание triangle
 Список заданий и схемы сеток см. ./assignmentTriangle.pdf
 См. шаблон ./public/js/triangle.js Задание по компьютерному практикуму для студентов кафедры механики композитов:
